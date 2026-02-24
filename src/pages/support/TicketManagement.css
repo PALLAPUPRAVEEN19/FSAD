@@ -1,0 +1,84 @@
+.ticket-page {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #fafafa 0%, #eff6ff 50%, #eef2ff 100%);
+}
+
+.ticket-main {
+  max-width: 90rem;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.ticket-header {
+  margin-bottom: 2rem;
+}
+
+.ticket-title {
+  font-size: 2.5rem;
+  font-weight: 900;
+  color: #1e293b;
+  margin: 0 0 0.5rem 0;
+}
+
+.ticket-subtitle {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #64748b;
+  margin: 0;
+}
+
+.ticket-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.ticket-card {
+  background: white;
+  border-radius: 1.5rem;
+  padding: 1.5rem;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.06);
+  transition: all 0.2s ease;
+}
+
+.ticket-card:hover {
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
+}
+
+.ticket-card-header {
+  margin-bottom: 1rem;
+}
+
+.ticket-card-meta {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 0.75rem;
+}
+
+.ticket-card-id {
+  font-size: 0.875rem;
+  font-weight: 900;
+  color: #1e293b;
+}
+
+.ticket-card-issue {
+  font-size: 1.125rem;
+  font-weight: 900;
+  color: #1e293b;
+  margin: 0 0 0.5rem 0;
+}
+
+.ticket-card-details {
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: #94a3b8;
+  margin: 0;
+}
+
+.ticket-card-actions {
+  display: flex;
+  gap: 0.5rem;
+  padding-top: 1rem;
+  border-top: 1px solid #f1f5f9;
+}
